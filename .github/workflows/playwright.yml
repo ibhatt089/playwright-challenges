@@ -1,0 +1,52 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  setup-and-run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the code
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Setup Node.js environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16 # Use your Node.js version here
+
+      # Install Playwright dependencies
+      - name: Install Playwright Dependencies
+        run: npx playwright install-deps
+
+      # Install project dependencies
+      - name: Install Project Dependencies
+        run: npm ci
+
+      # Run Playwright tests
+      - name: Run Playwright Tests
+        run: npx playwright test --reporter=html
+
+      # Archive the Playwright test results
+      - name: Archive Test Results
+        if: always() # Ensure this step runs even if the tests fail
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-report
+          path: playwright-report
+
+      # Publish Playwright test results to GitHub Pages
+      - name: Deploy Test Report to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: playwright-report
