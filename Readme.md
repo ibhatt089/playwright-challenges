@@ -7,6 +7,8 @@
 - [Tests](#tests)
   - [Test Descriptions](#test-descriptions)
   - [Running Tests](#running-tests)
+- [Test Result Reports](#test-result-reports)
+    - 👉 [View Test Results on GitHub Pages](https://ibhatt089.github.io/playwright-challenges)
 
 ## Playwright Testing Challenges
 
@@ -77,3 +79,16 @@ To run the tests, use the following command:
 ```bash
 npx playwright test
 ```
+
+## Test Result Reports
+
+🎉 ** All test results are now published and hosted on **GitHub Pages** for seamless access and review. These reports provide detailed insights into test execution, helping you analyze failures, debug issues, and track progress.
+
+📂 The reports include:
+- **Test Execution Results:** Overview of passed, failed, and skipped tests.
+- **Detailed Logs:** Step-by-step breakdown of each test.
+- **Screenshots (if configured):** Captured at critical checkpoints or during failures.
+- **Execution Time and Statistics.**
+
+🔗 **Access the Latest Test Results Here:**  
+👉 [View Test Results on GitHub Pages](https://ibhatt089.github.io/playwright-challenges)
