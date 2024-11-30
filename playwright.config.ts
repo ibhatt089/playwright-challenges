@@ -2,15 +2,17 @@ import { defineConfig, devices } from '@playwright/test';
 
 const BASE_URL = 'http://localhost:3000';
 export default defineConfig({
+  globalSetup: './global/global-setup',
+  globalTeardown: './global/global-teardown',
   testDir: './tests',
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 3 : 1,
+  workers: process.env.CI ? 3 : 7,
   reporter: [['html', { open: 'never' }], ['dot']],
   timeout: 2 * 60 * 1000,
   expect: {
-    timeout: 5 * 1000,
+    timeout: 10 * 1000,
   },
   use: {
     headless: true,
@@ -20,7 +22,7 @@ export default defineConfig({
     baseURL: BASE_URL,
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
-    actionTimeout: 5 * 1000,
+    actionTimeout: 10 * 1000,
     navigationTimeout: 15 * 1000,
   },
 

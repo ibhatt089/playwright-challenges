@@ -1,0 +1,75 @@
+{"level":"info","message":"Global setup: initializing test environment...","timestamp":"2024-11-30 19:24:17"}
+{"level":"warn","message":"Unknown browser: undefined, skipping setup.","timestamp":"2024-11-30 19:24:17"}
+{"level":"warn","message":"Unknown browser: undefined, skipping setup.","timestamp":"2024-11-30 19:24:17"}
+{"level":"info","message":"Global setup: all browser-specific setup completed.","timestamp":"2024-11-30 19:24:17"}
+{"level":"info","message":"Navigating to Challenge 3","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Starting test for animated login and interactions","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Navigating to Challenge 2","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Starting Application State test","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Running test for user: test_user1@villageIT.com","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Navigating to Challenge 1","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Navigating to the App Login page","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Successfully navigated to Challenge 3","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Successfully navigated to the Login page","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Starting Forgot Password - Valid Email test","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Clicking Forgot Password","timestamp":"2024-11-30 19:24:18"}
+{"level":"info","message":"Successfully navigated to Challenge 2","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Logging in with email: a@a.com","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Forgot Password link clicked successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Entering email for password reset: user@example.com","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Email entered successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Submitting Forgot Password form","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Forgot Password form submitted successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Retrieving success message","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Success message retrieved: \n                    Success!\n                    \n                        Password reset link sent!\n                        Email: user@example.com\n                    \n                    Close\n                ","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Forgot Password - Valid Email test completed successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Starting login process","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Login process completed","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Validating displayed user email: a@a.com","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"User email validated successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Attempting to log out","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Successfully logged out","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Application State test completed successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Successfully navigated to Challenge 1","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Starting login process","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Navigating to Challenge 3","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Successfully navigated to Challenge 3","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Starting Forgot Password - Back to Login test","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Clicking Forgot Password","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Login process completed","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Waiting for success message","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Forgot Password link clicked successfully","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Clicking Back to Login","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Navigated back to Login","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Validating login form heading with text: Login","timestamp":"2024-11-30 19:24:19"}
+{"level":"info","message":"Login form heading validated","timestamp":"2024-11-30 19:24:20"}
+{"level":"info","message":"Forgot Password - Back to Login test completed successfully","timestamp":"2024-11-30 19:24:20"}
+{"level":"info","message":"Retrieving displayed email","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Retrieving displayed password","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Test completed successfully for user: test_user1@villageIT.com","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Running test for user: test_user2@villageIT.com","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Navigating to Challenge 1","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Successfully navigated to Challenge 1","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Starting login process","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Login process completed","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Waiting for success message","timestamp":"2024-11-30 19:24:21"}
+{"level":"info","message":"Retrieving displayed email","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Retrieving displayed password","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Test completed successfully for user: test_user2@villageIT.com","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Running test for user: test_user3@villageIT.com","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Navigating to Challenge 1","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Successfully navigated to Challenge 1","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Starting login process","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Login process completed","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Waiting for success message","timestamp":"2024-11-30 19:24:23"}
+{"level":"info","message":"Login successful","timestamp":"2024-11-30 19:24:26"}
+{"level":"info","message":"Validating dashboard","timestamp":"2024-11-30 19:24:26"}
+{"level":"info","message":"Dashboard validation successful","timestamp":"2024-11-30 19:24:26"}
+{"level":"info","message":"Retrieving displayed email","timestamp":"2024-11-30 19:24:27"}
+{"level":"info","message":"Retrieving displayed password","timestamp":"2024-11-30 19:24:27"}
+{"level":"info","message":"Test completed successfully for user: test_user3@villageIT.com","timestamp":"2024-11-30 19:24:27"}
+{"level":"info","message":"Interacting with menu options","timestamp":"2024-11-30 19:24:28"}
+{"level":"info","message":"Menu interactions successful","timestamp":"2024-11-30 19:24:28"}
+{"level":"info","message":"Logging out","timestamp":"2024-11-30 19:24:28"}
+{"level":"info","message":"Logout successful","timestamp":"2024-11-30 19:24:28"}
+{"level":"info","message":"Test for animated login and interactions completed successfully","timestamp":"2024-11-30 19:24:28"}
