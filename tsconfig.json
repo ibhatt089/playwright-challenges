@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    // Language and Environment
+    // Language and Environment 
     "target": "es6", // ECMAScript(Javascript) target version to which the TypeScript code is compiled
 
     // Modules
